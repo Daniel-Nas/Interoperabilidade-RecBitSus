@@ -101,13 +101,17 @@ backend/bundles.json
 
 Criar bundle:
 
+```
 curl -X POST http://localhost:3001/bundle \
 -H "Content-Type: application/json" \
 -d '{"nome":"Daniel","cpf":"123"}'
+```
 
 Buscar por CPF:
 
+```
 curl http://localhost:3001/bundle/cpf/123
+```
 
 ## 🧠 Metodologia Ativa
 
